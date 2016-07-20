@@ -1,0 +1,84 @@
+.buttons {
+  margin-bottom: 20px;
+}
+
+.btn {
+  font-family: 'Oswald', sans-serif;
+  font-size: 19px;
+  cursor: pointer;
+  border: none;
+  color: #000;
+  background: #fff;
+}
+
+.btn--call, .btn--call2 {
+  border: 1px solid #98B327;
+  background: #fff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: 176px;
+}
+
+.btn--call:hover, .btn--call2:hover {
+  background-color: #d4d0c8;
+}
+
+.btn--call2 {
+  width: 248px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.btn--lg, .btn--ld, .btn--mx, .btn--lp {
+  color: #fff;
+  width: 284px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #9c3;
+  text-transform: uppercase;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.22), inset 0 -2px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.22), inset 0 -2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.22), inset 0 -2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn--lg:hover, .btn--ld:hover, .btn--mx:hover, .btn--lp:hover {
+  background: #a5d24b;
+}
+
+.btn--ld {
+  width: 173px;
+  font-size: 14px;
+  padding: 17px;
+}
+
+.btn--ld:hover {
+  background: #a5d24b;
+}
+
+.btn--mx {
+  width: 230px;
+  font-size: 14.5px;
+  padding: 16.5px;
+}
+
+.btn--lp {
+  width: 249px;
+}
+
+.btn--down {
+  width: 60px;
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.btn--down:hover {
+  color: #131316;
+}
+
+body {
+  background: #f1f1f1;
+}

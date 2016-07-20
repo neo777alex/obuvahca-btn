@@ -1,0 +1,81 @@
+$btn-brand-color:			#9c3;
+$btn-black:					#000;
+$btn-white:					#fff;
+$btn-border-color:			#98B327;
+$btn-hover-color-default:	#d4d0c8;
+$btn-hover-color-brand:		#a5d24b;
+
+
+
+.buttons {
+	margin-bottom: 20px;
+}
+.btn {
+	font-family: 'Oswald', sans-serif;
+	font-size: 19px;
+	cursor:pointer;
+	border:none;
+	color:$btn-black;
+	background: $btn-white;
+	&:hover {
+		// color:#ffe600;
+	}
+	&--call,&--call2{
+	border: 1px solid $btn-border-color;
+	background: #fff;
+	padding-top:4px;
+	padding-bottom: 4px;
+	width:176px;
+	&:hover {
+		background-color: $btn-hover-color-default;
+	}
+	}
+	&--call2 {
+	width:248px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	}
+	&--lg,&--ld,&--mx,&--lp  {
+	color:#fff;
+	width: 284px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	background-color: $btn-brand-color;
+	text-transform: uppercase;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.22), inset 0 -2px 0 rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.22), inset 0 -2px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.22), inset 0 -2px 0 rgba(0, 0, 0, 0.2);
+		&:hover {
+			background: $btn-hover-color-brand;
+		}
+	}
+	&--ld {
+		width: 173px;
+		font-size: 14px;
+		padding:17px;
+		&:hover {
+			background:  $btn-hover-color-brand;
+		}
+	}
+	&--mx {
+		width:230px;
+		font-size: 14.5px;
+		padding:16.5px;
+	}
+	&--lp {
+		width: 249px;
+	}
+	&--down {
+		width: 60px;
+		position: absolute;
+		bottom:0;
+		transform: translateX(-50%);
+		&:hover {
+			color:#131316;
+			
+		}
+	}
+}
