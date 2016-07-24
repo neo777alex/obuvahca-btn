@@ -5,7 +5,7 @@ $btn-border-color:			#98B327;
 $btn-hover-color-default:	#d4d0c8;
 $btn-hover-color-brand:		#a5d24b;
 
-
+@import "_mixin.scss";
 
 .buttons {
 	margin-bottom: 20px;
