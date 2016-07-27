@@ -135,4 +135,75 @@ p , div {
 		top:50%;
 	}
 	}
-	// =============================================================================
+	// ============================ТЕКСТОВЫЕ ПРОМО-БЛОКИ============================
+
+	.promotional-text {
+	
+		border: 2px solid #98B327;
+		font-family: 'Avantgarde Gothic';
+		font-style: italic;
+		width: 49%;
+		padding-top: 3.3%;
+		display: inline-block;
+		text-align: center;
+		.interest,.womens-shoes {
+			display: inline-block;
+		}
+		.interest {
+			font-size: 4vw;
+			margin-bottom: 7%;
+		}
+		.womens-shoes {
+			font-size: 2vw;
+			font-size: 1.6vw;
+			vertical-align: top;
+			max-width: 50%;
+			margin-left: 1.5%;
+			padding-top: 0.3%;
+		}
+	}
+.promotional-text2 {
+	border: 2px solid #98B327;
+		font-family: 'Avantgarde Gothic';
+		font-style: italic;
+		width: 49%;
+		padding-top: 3.3%;
+		display: inline-block;
+		text-align: center;
+		.interest2,.womens-shoes2 {
+			display: inline-block;
+		}
+		.interest2 {
+			font-size: 4vw;
+			margin-bottom: 7%;
+		}
+		.womens-shoes2 {
+			font-size: 2vw;
+			font-size: 1.6vw;
+			vertical-align: top;
+			max-width: 50%;
+			margin-left: 1.5%;
+			padding-top: 0.3%;
+		}
+}
+@media (max-width: 768px) {
+	.promotional-text {
+		width: 100%;
+		.interest {
+			font-size: 11vw;
+			margin-bottom: 6%;
+		}
+		.womens-shoes {
+			font-size: 3.6vw;
+		}
+	}
+	.promotional-text2 {
+		width: 100%;
+		.interest2 {
+			font-size: 11vw;
+		}
+		.womens-shoes2 {
+			font-size: 3.6vw;
+		}
+	}
+}

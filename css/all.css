@@ -1,3 +1,59 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 .buttons {
   margin-bottom: 20px;
 }
@@ -205,6 +261,294 @@ p, div {
   .second {
     top: 50%;
   }
+}
+
+.promotional-text {
+  border: 2px solid #98B327;
+  font-family: 'Avantgarde Gothic';
+  font-style: italic;
+  width: 49%;
+  padding-top: 3.3%;
+  display: inline-block;
+  text-align: center;
+}
+
+.promotional-text .interest, .promotional-text .womens-shoes {
+  display: inline-block;
+}
+
+.promotional-text .interest {
+  font-size: 4vw;
+  margin-bottom: 7%;
+}
+
+.promotional-text .womens-shoes {
+  font-size: 2vw;
+  font-size: 1.6vw;
+  vertical-align: top;
+  max-width: 50%;
+  margin-left: 1.5%;
+  padding-top: 0.3%;
+}
+
+.promotional-text2 {
+  border: 2px solid #98B327;
+  font-family: 'Avantgarde Gothic';
+  font-style: italic;
+  width: 49%;
+  padding-top: 3.3%;
+  display: inline-block;
+  text-align: center;
+}
+
+.promotional-text2 .interest2, .promotional-text2 .womens-shoes2 {
+  display: inline-block;
+}
+
+.promotional-text2 .interest2 {
+  font-size: 4vw;
+  margin-bottom: 7%;
+}
+
+.promotional-text2 .womens-shoes2 {
+  font-size: 2vw;
+  font-size: 1.6vw;
+  vertical-align: top;
+  max-width: 50%;
+  margin-left: 1.5%;
+  padding-top: 0.3%;
+}
+
+@media (max-width: 768px) {
+  .promotional-text {
+    width: 100%;
+  }
+  .promotional-text .interest {
+    font-size: 11vw;
+    margin-bottom: 6%;
+  }
+  .promotional-text .womens-shoes {
+    font-size: 3.6vw;
+  }
+  .promotional-text2 {
+    width: 100%;
+  }
+  .promotional-text2 .interest2 {
+    font-size: 11vw;
+  }
+  .promotional-text2 .womens-shoes2 {
+    font-size: 3.6vw;
+  }
+}
+
+.table {
+  background-color: #fff;
+  width: 100%;
+  height: 290px;
+  display: table;
+  font-family: 'Avantgarde Gothic';
+  border-bottom: 1px solid;
+}
+
+.td, .tm {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px;
+}
+
+.tm {
+  max-width: 20%;
+}
+
+.wid {
+  color: #67686D;
+  font-size: 2.3vw;
+  text-align: left;
+}
+
+.child {
+  border: 1px solid #99cc33;
+  width: 100%;
+}
+
+.close:before {
+  cursor: pointer;
+  font-size: 3vw;
+  content: "\2715";
+}
+
+.m {
+  border: 1px solid #99cc33;
+  display: inline-block;
+  font-size: 2.5vw;
+  padding: 13% 17.6%;
+}
+
+.scrip, .tab {
+  color: #99cc33;
+  font-size: 2vw;
+}
+
+.tab {
+  font-size: 1.5vw;
+  text-align: left;
+}
+
+.tab a {
+  color: #99cc33;
+}
+
+.tab a:hover {
+  text-decoration: none;
+}
+
+.tab span {
+  display: block;
+  font-size: 2vw;
+}
+
+.tab span:before {
+  cursor: pointer;
+  font-size: 2vw;
+  content: "\2714";
+  color: #99cc33;
+  margin-right: 7%;
+}
+
+.total {
+  font-family: 'Avantgarde Gothic';
+  color: #000;
+  font-size: 27px;
+  font-weight: 300;
+  width: 32%;
+  float: right;
+  padding: 1%;
+}
+
+.total span {
+  float: right;
+}
+
+@media (max-width: 768px) {
+  .scrip {
+    font-size: 3vw;
+  }
+  .tab {
+    font-size: 2.5vw;
+  }
+  .child {
+    width: 90%;
+  }
+  .total {
+    width: 50%;
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 520px) {
+  .td {
+    padding: 0;
+    display: block;
+  }
+  .child {
+    width: 40%;
+  }
+  .wid {
+    text-align: center;
+    font-size: 4vw;
+  }
+  .m {
+    font-size: 4.5vw;
+    padding: 4% 5.6%;
+  }
+  .scrip, .tab {
+    font-size: 5vw;
+  }
+  .close:before {
+    font-size: 10vw;
+  }
+  .tab {
+    text-align: center;
+  }
+  .tab span {
+    font-size: 5vw;
+  }
+  .tab span:before {
+    font-size: 7vw;
+    margin-right: 3%;
+  }
+  .total {
+    width: 100%;
+    font-size: 5vw;
+  }
+}
+
+.bg-nav {
+  font-family: 'Avantgarde Gothic';
+  padding-top: 15px;
+}
+
+.bg-nav > .navigation > .navigation__item > .submenu a {
+  display: inline-block;
+}
+
+.navigation__item {
+  padding-left: 5px;
+  margin-bottom: 36px;
+}
+
+.navigation__item .a-item {
+  color: #9c3;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.navigation__item--children, .navigation__item--novelty, .navigation__item--popular {
+  font-size: 28px;
+}
+
+.navigation__item--children a, .navigation__item--novelty a, .navigation__item--popular a {
+  text-decoration: none;
+}
+
+.navigation__item--children {
+  font-size: 20px;
+  margin-bottom: 34px;
+}
+
+.navigation__item--children a {
+  color: #9C3;
+}
+
+.navigation__item--novelty {
+  font-size: 19px;
+  margin-bottom: 11px;
+}
+
+.navigation__item--novelty a {
+  color: #030303;
+}
+
+.navigation__item--popular {
+  font-size: 19px;
+  margin-bottom: 24px;
+}
+
+.navigation__item--popular a {
+  color: #7E7F84;
+}
+
+.navigation__item a {
+  color: #000;
+  display: block;
+  font-size: 14px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.navigation__item a:hover {
+  color: blue;
 }
 
 body {

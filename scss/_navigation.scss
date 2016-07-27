@@ -1,0 +1,61 @@
+.bg-nav {
+	font-family: 'Avantgarde Gothic';
+	padding-top: 15px;
+	&>.navigation {
+		&>.navigation__item {
+			&>.submenu {
+				a {
+					display:inline-block;
+				}
+			}
+		}
+	}
+}
+.navigation {
+	&__item {
+	padding-left: 5px;
+	margin-bottom: 36px;
+	.a-item {
+	color:#9c3;
+	font-size: 19px;
+	margin-bottom: 20px;
+	}
+	&--children,&--novelty,&--popular {
+		font-size: 28px;
+		a {
+		text-decoration: none;
+	}
+	}
+	&--children {
+		font-size: 20px;
+		margin-bottom: 34px;
+		a {
+		color: #9C3;
+		}
+	}
+	&--novelty {
+		font-size: 19px;
+		margin-bottom: 11px;
+		a {
+			color: #030303;
+		}
+	}
+	&--popular {
+		font-size: 19px;
+		margin-bottom: 24px;
+		a {
+			color: #7E7F84;
+		}
+	}
+	a {
+	color:#000;
+	display:block;
+	font-size: 14px;
+	padding-right: 20px;
+	text-decoration: none;
+	&:hover{
+		color:blue;
+	}
+	}
+	}
+}
